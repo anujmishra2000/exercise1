@@ -129,7 +129,8 @@ $ git commit -am "rebasing"
 $ git rebase --continue
 
 18)find the differences between "merge" and "rebase" in above cases.
-->With respect to above cases , we can see that rebasing master in feature2 make master 2 commits behind feature1.
+->With respect to above cases , we use add and commit in both case but after commit in rebase we use "git rebase --continue" to continue.
+  we can also see that rebasing master in feature2 make master 2 commits behind feature1.
   And, merging feature1 in master make master 3 commits ahead of feature1
 
 Another differences between rebase and merge are as follows-
